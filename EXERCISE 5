@@ -1,0 +1,24 @@
+#include <iostream>
+#include <cmAth>
+using namespace std;
+
+int main(){
+   cout<< "calculate the euclidean distance between two points"<<endl;
+
+double x,a,y,b;
+cout<<"enter the value of x1:"<<endl;
+cin>> x;
+cout<< "enter the value of x2:"<<endl;
+cin>> y;
+cout<< "enter the value of y1:"<<endl;
+cin>> a;
+cout<< "enter the value of y2:"<<endl;;
+cin>> b;
+
+int base =(x-a)+(y-b);
+int exponent = 2;
+int power=pow(base,exponent);
+
+cout<<"The distance between point 1 and point 2 is"<< sqrt(power)<<endl;
+return 0,
+}
